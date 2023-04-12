@@ -1,0 +1,65 @@
+
+a{
+    text-decoration: none;
+}
+
+
+*{
+    font-family: 'Cabin', sans-serif;
+    
+}
+.button{
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-color: aqua;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+
+
+.container-header{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    padding-right: 30px;
+    width: 400px;
+
+}
+
+
+    
+
+.footer{
+  color: white;
+    
+    width: 200px;
+    margin-top: 100px;
+    
+   
+    float: inline-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+   
+    background-color: gray;
+}
+.container-titre-p{
+    display: block;
+    
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+}
