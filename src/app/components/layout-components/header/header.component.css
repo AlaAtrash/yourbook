@@ -1,0 +1,85 @@
+nav {
+  background-color: var(--color-dark-grey);
+  padding-inline: 2rem;
+  min-height: 85px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.332);
+  overflow: hidden;
+}
+
+.navbar-brand span {
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-yourbook {
+  width: 34px;
+  height: 58px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-link {
+  color: var(--color-bone);
+  font-size: 1.4rem;
+  text-shadow: 0 3px 3px #0000009f;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  position: relative;
+  color: white;
+  text-shadow: 0 2px 1px #0000009f;
+  transition: color 0.3s ease-out, text-shadow 0.3s ease;
+}
+
+.user-icon {
+  height: 2rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.63));
+  filter: invert(89%) sepia(5%) saturate(722%) hue-rotate(354deg)
+    brightness(95%) contrast(89%) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+  transition: filter 0.5s ease;
+}
+
+.user-icon:hover,
+.user-icon:focus {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+
+button.navbar-toggler {
+  background-color: var(--color-bone);
+}
+
+button.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-link {
+    margin-inline: 1.1em;
+  }
+  .nav-link.active::after,
+  .nav-link:not(.login-link):hover::after,
+  .nav-link:not(.login-link):focus:after {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    bottom: -2.5rem;
+    left: 0;
+    right: 0;
+    height: 0%;
+    background-color: var(--color-bone);
+    animation: expandBg 0.6s ease-in-out forwards;
+  }
+
+  @keyframes expandBg {
+    to {
+      height: 81%;
+    }
+  }
+}

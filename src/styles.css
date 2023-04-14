@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-orange: #f3a712;
+  --color-red: #c33149;
+  --color-bone: #dccfbe;
+  --color-dark-grey: #56565e;
+  --b-radius: 6px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
