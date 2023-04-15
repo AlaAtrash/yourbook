@@ -1,0 +1,37 @@
+.wrapper-title {
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 87px;
+  width: 100%;
+  background: linear-gradient(
+    360deg,
+    rgba(86, 86, 94, 0.45) 0%,
+    rgba(86, 86, 94, 0.149) 100%
+  );
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+  border-top: 3px solid var(--color-bone);
+  border-bottom: 3px solid var(--color-bone);
+}
+
+.wrapper-title h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 34px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-dark-grey);
+  margin: 0;
+  padding-inline: 2rem;
+}
+
+@media screen and (min-width: 820px) {
+  .wrapper-title h2 {
+    font-size: 2.1rem;
+    line-height: 56px;
+  }
+}

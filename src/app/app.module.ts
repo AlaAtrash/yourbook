@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/layout-components/header/header.component';
 import { SectionHeroComponent } from './components/layout-components/section-hero/section-hero.component';
+import { SectionHpPresentationComponent } from './components/layout-components/section-hp-presentation/section-hp-presentation.component';
+import { TitleComponent } from './components/ui-components/title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     HeaderComponent,
-    SectionHeroComponent
+    SectionHeroComponent,
+    SectionHpPresentationComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
