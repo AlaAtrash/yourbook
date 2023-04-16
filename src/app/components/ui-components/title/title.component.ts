@@ -6,8 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./title.component.css'],
 })
 export class TitleComponent {
-  @Input() title: string;
-  constructor() {
-    this.title = '';
-  }
+  @Input() title: string = '';
 }

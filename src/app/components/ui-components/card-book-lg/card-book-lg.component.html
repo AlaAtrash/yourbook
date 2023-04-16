@@ -1,0 +1,23 @@
+<div *ngIf="book" class="card card-book">
+  <div class="card-body">
+    <div class="card-top">
+      <img
+        class="card-img-top"
+        [src]="book.picture"
+        alt="couverture du livre {{ book.title.toLowerCase() }}"
+      />
+    </div>
+    <div class="card-content">
+      <app-badge-category [category]="book.category"></app-badge-category>
+      <h3 class="h5 card-title">{{ book.title }}</h3>
+
+      <h4 class="h6 my-2">Auteur : {{ book.author }}</h4>
+      <p class="card-text">
+        {{ book.synopsis }}
+      </p>
+    </div>
+    <div class="card-bottom d-flex justify-content-center">
+      <app-btn-borrow></app-btn-borrow>
+    </div>
+  </div>
+</div>

@@ -11,8 +11,8 @@ export class HeaderComponent {
   logoYourBook: SafeUrl;
 
   constructor(private sanitizer: DomSanitizer) {
-    const imageUserIconPath = 'assets/icons/user.png';
-    const imageLogoYourBookPath = 'assets/imgs/logo-yourbook.png';
+    const imageUserIconPath: string = 'assets/icons/user.png';
+    const imageLogoYourBookPath: string = 'assets/imgs/logo-yourbook.png';
     this.userIconUrl = this.sanitizer.bypassSecurityTrustUrl(imageUserIconPath);
     this.logoYourBook = this.sanitizer.bypassSecurityTrustUrl(
       imageLogoYourBookPath

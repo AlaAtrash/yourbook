@@ -7,11 +7,11 @@ import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
   styleUrls: ['./section-hp-presentation.component.css'],
 })
 export class SectionHpPresentationComponent {
-  titleSection = 'Les services proposés';
+  titleSection: string = 'Les services proposés';
   illustrationHpImgUrl: SafeUrl;
 
   constructor(private sanitizer: DomSanitizer) {
-    const imageIllustrationPath = 'assets/imgs/illustration-hp.jpg';
+    const imageIllustrationPath: string = 'assets/imgs/illustration-hp.jpg';
     this.illustrationHpImgUrl = this.sanitizer.bypassSecurityTrustUrl(
       imageIllustrationPath
     );

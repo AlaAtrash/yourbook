@@ -10,7 +10,7 @@ export class SectionHeroComponent {
   libraryImgUrl: SafeUrl;
 
   constructor(private sanitizer: DomSanitizer) {
-    const imageLibraryPath = 'assets/imgs/library.jpg';
+    const imageLibraryPath: string = 'assets/imgs/library.jpg';
     this.libraryImgUrl =
       this.sanitizer.bypassSecurityTrustUrl(imageLibraryPath);
   }

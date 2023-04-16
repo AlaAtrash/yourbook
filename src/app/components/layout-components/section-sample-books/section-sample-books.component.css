@@ -1,0 +1,10 @@
+.section-sample-books {
+  padding-bottom: 8rem;
+}
+
+.section-sample-books .wrapper {
+  padding-top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

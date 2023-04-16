@@ -8,6 +8,10 @@ import { HeaderComponent } from './components/layout-components/header/header.co
 import { SectionHeroComponent } from './components/layout-components/section-hero/section-hero.component';
 import { SectionHpPresentationComponent } from './components/layout-components/section-hp-presentation/section-hp-presentation.component';
 import { TitleComponent } from './components/ui-components/title/title.component';
+import { SectionSampleBooksComponent } from './components/layout-components/section-sample-books/section-sample-books.component';
+import { BtnBorrowComponent } from './components/ui-components/btn-borrow/btn-borrow.component';
+import { CardBookLgComponent } from './components/ui-components/card-book-lg/card-book-lg.component';
+import { BadgeCategoryComponent } from './components/ui-components/badge-category/badge-category.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { TitleComponent } from './components/ui-components/title/title.component
     HeaderComponent,
     SectionHeroComponent,
     SectionHpPresentationComponent,
-    TitleComponent
+    TitleComponent,
+    SectionSampleBooksComponent,
+    BtnBorrowComponent,
+    CardBookLgComponent,
+    BadgeCategoryComponent
   ],
   imports: [
     BrowserModule,
