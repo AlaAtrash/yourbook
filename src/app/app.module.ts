@@ -12,6 +12,8 @@ import { SectionSampleBooksComponent } from './components/layout-components/sect
 import { BtnBorrowComponent } from './components/ui-components/btn-borrow/btn-borrow.component';
 import { CardBookLgComponent } from './components/ui-components/card-book-lg/card-book-lg.component';
 import { BadgeCategoryComponent } from './components/ui-components/badge-category/badge-category.component';
+import { SectionTestimonialComponent } from './components/layout-components/section-testimonial/section-testimonial.component';
+import { CardTestimonialComponent } from './components/ui-components/card-testimonial/card-testimonial.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { BadgeCategoryComponent } from './components/ui-components/badge-categor
     SectionSampleBooksComponent,
     BtnBorrowComponent,
     CardBookLgComponent,
-    BadgeCategoryComponent
+    BadgeCategoryComponent,
+    SectionTestimonialComponent,
+    CardTestimonialComponent
   ],
   imports: [
     BrowserModule,

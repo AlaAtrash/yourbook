@@ -1,0 +1,22 @@
+<!-- <p>{{ testimonial && testimonial.name }}!</p> -->
+<div *ngIf="testimonial" class="card card-testimonial">
+  <div class="card-body">
+    <div class="card-top">
+      <img
+        class="card-img-top"
+        [src]="testimonial.picture"
+        alt="photo de {{ testimonial.name }}"
+      />
+    </div>
+    <div class="card-content">
+      <h3 class="h5 card-title my-3">
+        {{ testimonial.name }}, {{ testimonial.location }}
+      </h3>
+
+      <img src="./assets/icons/stars.png" class="mb-3" alt="note etoiles" />
+      <p class="card-text">
+        {{ testimonial.comment }}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.card-testimonial {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-testimonial .card-top {
+  overflow: hidden;
+}
+
+.card-testimonial .card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-testimonial .card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.card-testimonial .card-content {
+  color: var(--color-dark-grey);
+  font-family: "Lato";
+}
+
+.card-testimonial .card-title {
+  font-weight: 700;
+}
