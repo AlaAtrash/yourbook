@@ -14,6 +14,7 @@ import { CardBookLgComponent } from './components/ui-components/card-book-lg/car
 import { BadgeCategoryComponent } from './components/ui-components/badge-category/badge-category.component';
 import { SectionTestimonialComponent } from './components/layout-components/section-testimonial/section-testimonial.component';
 import { CardTestimonialComponent } from './components/ui-components/card-testimonial/card-testimonial.component';
+import { FooterComponent } from './components/layout-components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CardTestimonialComponent } from './components/ui-components/card-testim
     CardBookLgComponent,
     BadgeCategoryComponent,
     SectionTestimonialComponent,
-    CardTestimonialComponent
+    CardTestimonialComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,8 @@
 
 .card-testimonial .card-top {
   overflow: hidden;
+  border-top-right-radius: var(--b-radius);
+  border-top-left-radius: var(--b-radius);
 }
 
 .card-testimonial .card-img-top {
@@ -16,7 +18,7 @@
 
 .card-testimonial .card-content {
   color: var(--color-dark-grey);
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 .card-testimonial .card-title {

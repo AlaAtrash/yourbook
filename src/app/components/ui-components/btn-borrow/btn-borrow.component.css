@@ -2,6 +2,7 @@
   background-color: var(--color-orange);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
+  font-family: "Lato", sans-serif;
   transition: box-shadow 0.3s ease;
 }
 .btn-borrow:hover {
