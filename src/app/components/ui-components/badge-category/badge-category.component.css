@@ -1,0 +1,7 @@
+.badge-category {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.6rem;
+  background-color: var(--color-red);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

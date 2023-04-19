@@ -1,0 +1,11 @@
+<section class="section-sample-books">
+  <app-title [title]="titleSection"></app-title>
+  <div class="row wrapper">
+    <div
+      *ngFor="let item of items"
+      class="col-12 col-md-6 col-xl-4 wrapper-card mb-5 mb-xl-0 d-flex justify-content-center"
+    >
+      <app-card-book-lg [book]="item"></app-card-book-lg>
+    </div>
+  </div>
+</section>

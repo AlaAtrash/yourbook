@@ -1,0 +1,38 @@
+.card-book {
+  position: relative;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-book .card-img-top {
+  height: 22.25rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--b-radius);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  /* margin-top: 1rem; */
+  margin-bottom: 1.5rem;
+}
+
+.card-book .card-content {
+  margin-bottom: 2rem;
+  color: var(--color-dark-grey);
+  font-family: "Lato";
+}
+
+.card-book .card-title {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.card-book .card-content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-book .card-bottom {
+  margin-bottom: 0.5rem;
+}
