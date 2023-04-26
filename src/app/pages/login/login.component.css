@@ -1,0 +1,10 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#loginForm {
+  background-color: #dccfbe;
+}
+.labelText {
+  background-color: #f3a712;
+}
