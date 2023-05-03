@@ -15,6 +15,10 @@ import { BadgeCategoryComponent } from './components/ui-components/badge-categor
 import { SectionTestimonialComponent } from './components/layout-components/section-testimonial/section-testimonial.component';
 import { CardTestimonialComponent } from './components/ui-components/card-testimonial/card-testimonial.component';
 import { FooterComponent } from './components/layout-components/footer/footer.component';
+import { CatalogComponent } from './pages/catalog/catalog.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { FooterComponent } from './components/layout-components/footer/footer.co
     BadgeCategoryComponent,
     SectionTestimonialComponent,
     CardTestimonialComponent,
-    FooterComponent
+    FooterComponent,
+    CatalogComponent,
+    AboutComponent,
+    ContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
