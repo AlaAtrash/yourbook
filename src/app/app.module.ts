@@ -19,6 +19,8 @@ import { CatalogComponent } from './pages/catalog/catalog.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LoginComponent } from './pages/login/login.component';
+import { BooksComponent } from './components/books/books.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,11 +40,13 @@ import { LoginComponent } from './pages/login/login.component';
     CatalogComponent,
     AboutComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
