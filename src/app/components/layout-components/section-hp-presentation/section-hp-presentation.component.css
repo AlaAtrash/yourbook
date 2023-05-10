@@ -1,0 +1,56 @@
+.section-presentation {
+  padding-block: 8rem;
+}
+
+.section-presentation .wrapper {
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-presentation .wrapper-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-presentation .illustration-women-reading {
+  max-width: 551px;
+  width: 100%;
+  border-radius: var(--b-radius);
+}
+
+.section-presentation .wrapper-content {
+  color: #56565e;
+}
+.section-presentation .wrapper-content h3 {
+  /* max-width: 35ch; */
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.section-presentation .wrapper-content p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 820px) {
+  .section-presentation .wrapper-content h3 {
+    max-width: 35ch;
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .section-presentation .wrapper {
+    padding-top: 220px;
+  }
+}

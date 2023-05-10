@@ -1,0 +1,10 @@
+.section-testimonial {
+  padding-bottom: 8rem;
+}
+
+.section-testimonial .wrapper {
+  padding-top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
