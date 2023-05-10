@@ -13,7 +13,7 @@ export class BookService {
 
   getBooks() : any {
     
-    //return this.httpClient.get(environment.apiUrl)
+    //return this.httpClient.get(environment.apiUrl + '/books')
     return books
   }
 }
