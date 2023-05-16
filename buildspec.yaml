@@ -1,0 +1,33 @@
+version: 0.2
+
+env:
+  variables:
+      CACHE_CONTROL: "86400"
+      S3_BUCKET: "xxxx"
+      BUILD_ENV: "production"
+
+phases:
+  install:
+    commands:
+      - npm install -g @angular/cli@11.2.2
+    runtime-versions:
+      nodejs: 14
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - ng build --configuration=production
+
+  post_build:
+    commands:
+      - echo build process finished, we should upload to S3 now
+      - cd dist/xxxx
+      - ls -la
+      - aws s3 sync . s3://xxxxx --delete
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: yes
+  base-directory: 'dist/xxxxx*'
