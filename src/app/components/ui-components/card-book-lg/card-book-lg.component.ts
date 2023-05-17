@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Book } from '../../layout-components/section-sample-books/book.interface';
-
+import { Book } from '../../../models/book.model'
 @Component({
   selector: 'app-card-book-lg',
   templateUrl: './card-book-lg.component.html',

@@ -3,17 +3,17 @@
     <div class="card-top">
       <img
         class="card-img-top"
-        [src]="book.picture"
-        alt="couverture du livre {{ book.title.toLowerCase() }}"
+        [src]="book.pic"
+        alt="couverture du livre {{ book.titre.toLowerCase() }}"
       />
     </div>
     <div class="card-content">
-      <app-badge-category [category]="book.category"></app-badge-category>
-      <h3 class="h5 card-title">{{ book.title }}</h3>
+      <app-badge-category [category]="book.isbn"></app-badge-category>
+      <h3 class="h5 card-title">{{ book.titre }}</h3>
 
-      <h4 class="h6 my-2">Auteur : {{ book.author }}</h4>
+      <h4 class="h6 my-2">Auteur : {{ book.auteur.prenom }}</h4>
       <p class="card-text">
-        {{ book.synopsis }}
+        {{ book.description }}
       </p>
     </div>
     <div class="card-bottom d-flex justify-content-center">
